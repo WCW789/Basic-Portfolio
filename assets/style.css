@@ -1,0 +1,264 @@
+  body {
+    display: flex;
+    flex-flow: column;
+    background: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    min-height: 100vh;
+  } 
+ 
+  .first_Nav{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: .3vh solid gray;
+  }  
+
+  .name_Div{
+    display: flex;
+    justify-content: space-around;
+    background: teal;
+    width: 25vh;
+    margin-left: 24.5vh;
+  }
+
+  h1 {
+    color: white;
+    font-size: 140%;
+    margin: 3.125vh;
+  }
+
+  .blank_Div{
+    width: 77.5vh;
+  }
+
+  .links_Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 104.7vh;
+  }
+
+  .second_Nav{
+    display: flex;
+    justify-content: center;
+    background:lightgrey;
+    flex: 1;
+  }
+ 
+  .about_Div{
+    display: flex;
+    flex-flow: column;
+    width: 101.7vh;
+    height: 70.3vh;
+    margin: 6.25vh 6.25vh 6.25vh 0vh;
+    background: white;
+  }
+
+  .style_P1 {
+    color: teal;
+    font-size: xx-large;
+    border-bottom: .45vh solid lightgrey;
+    padding-bottom: 1.6vh;    
+    padding-left: 3.125vh;
+    padding-top: 3.125vh;
+  }
+
+  .para_Div {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .img_Class {
+      width: 25vh;
+      height: 45vh;
+      padding-right: 3.125vh;
+      padding-left: 3.125vh;
+      padding-top: 3.125vh;
+      font: bold;
+  }
+
+  .lorum_Div {
+    padding-right: 3.125vh;
+    padding-top: 3.125vh;
+    overflow: auto;
+  } 
+
+  .social_Div {
+    display: flex;
+    flex-flow: column;
+    width: 42.2vh;
+    height: 27.3vh;
+    background: white;
+    margin-top: 6.25vh;
+    overflow: auto;
+  }
+  
+  .style_P2 {
+    text-align: center;
+    color: teal;
+    font-size: x-large;
+    border-bottom: .45vh solid lightgrey;
+    padding-bottom: 1.6vh;
+    padding-top: 3.125vh;
+  }
+
+  .img_Div {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.9vh;
+  }
+
+  .footer {
+    display: flex;
+    width: 100%;
+    border-top: 1.1vh solid teal;
+    background: gray;
+    justify-content: center;
+    padding: 2.8vh;
+    color: white;
+  }
+
+  /* For Portfolio HTML: */
+
+  .image_Section {
+    width: 101.6vh;
+    height: 93.75vh;
+    margin: 6.25vh 6.25vh 6.25vh 0vh;
+    background: white;
+  }
+
+  .overallimages_Div {
+    display: flex;
+    align-items: center;
+  }
+
+  .image_Div {
+    display: flex;
+    flex-flow: column wrap;
+    height: 85.9vh;
+  }
+
+  .imageOne {
+    position: relative; 
+    padding-top: 3.125vh;     
+    padding-bottom: 3.125vh;
+    padding-left: 11.7vh;
+  } 
+
+  .capOne {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .imageTwo {
+    position: relative;
+    padding-bottom: 3.125vh;
+    padding-left: 11.7vh;
+  } 
+
+  .capTwo {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .imageThree {
+    position: relative;
+    padding-bottom: 3.125vh;
+    padding-left: 11.7vh;
+  } 
+
+  .capThree {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .image2_Div {
+    display: flex;
+    flex-flow: column wrap;
+    height: 85.9vh;
+  }
+
+  .imageFour {
+    position: relative;
+    padding-bottom: 3.125vh;
+    padding-top: 3.125vh;
+  } 
+
+  .capFour {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .imageFive {
+    position: relative;
+    padding-bottom: 3.125vh;
+  } 
+
+  .capFive {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }  
+
+  /* For Contact HTML: */
+  
+  .form_Div {
+    padding-top: 3.125vh;
+    padding-left: 3.125vh;
+    overflow: auto;
+  }
+
+  .name_Style {
+    color: teal;
+    padding-bottom: .78vh;
+    font-size: large;   
+  }
+
+  .email_Style {
+    color: teal;
+    padding-bottom: .78vh; 
+    font-size: large;   
+  }
+
+  .message_Style {
+    color: teal;
+    padding-bottom: .78vh;   
+    font-size: large; 
+  }
+
+  .textArea {
+    border: .47vh solid lightgray;
+  }
+
+  .a_Link {
+    width: 10vh;
+    height: 10vh;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: lightgray;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: lightgray;
+  }
+
+  a:hover {
+    color: pink;
+  }
