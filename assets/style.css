@@ -1,3 +1,6 @@
+  /* Converted px to vh to help with re-sizing (not perfect).  Width should be close to 960px, main section content close to 650px, and sidebar close to 270px */
+  
+  
   body {
     display: flex;
     flex-flow: column;
@@ -137,6 +140,11 @@
     flex-flow: column wrap;
     height: 85.9vh;
   }
+  
+  .a_Link {
+    width: 10vh;
+    height: 10vh;
+  }
 
   .imageOne {
     position: relative; 
@@ -244,10 +252,7 @@
     border: .47vh solid lightgray;
   }
 
-  .a_Link {
-    width: 10vh;
-    height: 10vh;
-  }
+  /* For the links to the other pages */
 
   a:link {
     text-decoration: none;
