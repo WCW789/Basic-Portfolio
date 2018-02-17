@@ -111,6 +111,11 @@
     padding-top: 3.9vh;
   }
 
+  .a_Link {
+    width: 10vh;
+    height: 10vh;
+  }
+
   .footer {
     display: flex;
     width: 100%;
@@ -141,11 +146,6 @@
     height: 85.9vh;
   }
   
-  .a_Link {
-    width: 10vh;
-    height: 10vh;
-  }
-
   .imageOne {
     position: relative; 
     padding-top: 3.125vh;     
